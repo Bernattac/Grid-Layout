@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: DM Sans, sans-serif;
+}
+
+.grid-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 columnes iguals*/
+  grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.create {
+  background-color: hsl(31, 66%, 93%);
+  padding: 20px;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2; /* Ocupa dues files */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.create h3 {
+  margin-top: 30px;
+}
+
+.create h3 i {
+  color: hsl(256, 67%, 59%);
+}
+
+.create img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  padding: 20px;
+  grid-column: 2 / span 2; /* Ocupa les columnes 2 i 3 */
+  grid-row: 1 / span 1; /* Ocupa una fila */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.social-media img {
+  margin-top: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.social-media figure {
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+
+.social-media h1 b {
+  color: hsl(39, 100%, 71%);
+}
+
+.optimize {
+  background-color: hsl(254, 88%, 90%);
+  padding: 20px;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 2; /* Ocupa dues files */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.optimize img {
+  margin-top: 10px;
+  width: 75%;
+  height: auto;
+}
+
+.optimize figure {
+  margin-top: 10px;
+  font-size: 0.5em;
+}
+
+.write {
+  background-color: hsl(39, 100%, 71%);
+  padding: 20px;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1; /* Ocupa una fila */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.write img {
+  margin-top: 10px;
+  width: 75%;
+  height: auto;
+}
+
+.accounts {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1; /* Ocupa una fila */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.accounts img {
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.schedule {
+  background-color: hsl(39, 100%, 71%);
+  padding: 20px;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1; /* Ocupa una fila */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.schedule img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.faster {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1; /* Ocupa una fila */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.faster p {
+  font-size: 0.6em;
+  margin: 10px 0;
+}
+
+.faster img {
+  margin-top: 10px;
+  width: 75%;
+  height: auto;
+}
+
+.followers {
+  background-color: hsl(256, 67%, 59%);
+  color: white;
+  padding: 20px;
+  grid-column: 3 / span 2; /* Ocupa les columnes 3 i 4 */
+  grid-row: 3 / span 2; /* Ocupa dues files */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.followers img {
+  margin-top: 10px;
+  width: 45%;
+  height: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
